@@ -13,36 +13,18 @@ public class TicTacToe {
         setBoard(x,y, lastPlayer);
         if (Win(x,y)){
             return lastPlayer + " wins";
+        } else if (Draw()){
+            return "It is a draw";
         }
         return "No winner";
     }
 
-    private boolean Win(int x, int y){
-        int playerMoves = lastPlayer * SIZE;
-        char diagonal1 = '\0';
-        char diagonal2 = '\0';
-
-        for (int i = 0; i < SIZE; i++) {
-            diagonal1 += board [i] [i];
-            diagonal1 += board [i] [SIZE - i - 1];
-            if((board[0][i] + board [1][i] + board [2][i])
-                    == playerMoves){
-                return true;
-            }else if( (board[i][0] +board[i][1]+ board [i][2])
-                    == playerMoves ){
-                return true;
-            }
+    public char nextPlayer(){
+        if (lastPlayer == 'X'){
+            return 'O';
         }
-        if (board[0][0] +board[1][1]+ board [2][2]
-            == playerMoves ) {
-            return true;
-        }else if (board [0][2] + board[1][1] + board [2][0]
-                    == playerMoves){
-            return true;
-        }
-        return false;
+        return 'X';
     }
-
 
     public void check(int axis) {
         if (axis < 1 || axis > 3) {
@@ -51,19 +33,48 @@ public class TicTacToe {
     }
 
     public void setBoard(int x, int y, char lastPlayer) {
-        if (board[x - 1][y - 1] != null) {
+        if (board[x - 1][y - 1] != '\0') {
             throw new RuntimeException("Is already occupied");
         } else {
             board[x - 1][y - 1] = lastPlayer;
         }
     }
 
-    public char nextPlayer(){
-         if (lastPlayer == 'X'){
-             return 'O';
-         }
-         return 'X';
+
+    private boolean Win(int x, int y){
+        int playerMoves = lastPlayer * SIZE;
+
+        char horizontal, vertical, diagonal1, diagonal2;
+        horizontal = vertical = diagonal1 = diagonal2 = '\0';
+        for (int i = 0; i < SIZE; i++) {
+            horizontal += board[i][y - 1];
+            vertical += board[x - 1][i];
+            diagonal1 += board[i][i];
+            diagonal2 += board[i][SIZE - i - 1];
+        }
+        if (horizontal == playerMoves
+                || vertical == playerMoves
+                || diagonal1 == playerMoves
+                || diagonal2 == playerMoves) {
+            return true;
+        }
+        return false;
     }
+
+
+
+    private boolean Draw(){
+        for (int x = 0; x <SIZE ; x++) {
+            for (int y = 0; y <SIZE ; y++) {
+                if (board [x][y] == '\0'){
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+
 
 
 }
