@@ -40,7 +40,6 @@ public class TicTacToeSpec {
 //        exception.expect(RuntimeException.class);
 //        ticTacToe.play(2,5);
     }
-
     @Test
     public void whenOccupiedRuntimeException(){
         ticTacToe.play(2,1);
@@ -67,6 +66,52 @@ public class TicTacToeSpec {
         //then
 //        assertEquals('O', ticTacToe.nextPlayer());
         assertThat(ticTacToe.nextPlayer()).isEqualTo('O');
+    }
+
+    @Test
+    public void NoWinner(){
+        String actual = ticTacToe.play(1,1);
+        assertThat(actual).isEqualTo("No winner");
+    }
+
+    @Test
+    public void WinnerWhenWholeHorizontal(){
+        ticTacToe.play(1,1);
+        ticTacToe.play(1,2);
+        ticTacToe.play(2,1);
+        ticTacToe.play(2,2);
+        String actual = ticTacToe.play(3,1);
+        assertThat(actual).isEqualTo("X wins");
+    }
+
+    @Test
+    public void  WinnerWhenWholeVertical(){
+        ticTacToe.play(2,2);
+        ticTacToe.play(3,1);
+        ticTacToe.play(2,1);
+        ticTacToe.play(3,2);
+        String actual = ticTacToe.play(2,3  );
+        assertThat(actual).isEqualTo("X wins");
+    }
+
+    @Test
+    public void WinnerWhenDiagonalTopBottom(){
+        ticTacToe.play(1,1);
+        ticTacToe.play(3,1);
+        ticTacToe.play(2,2);
+        ticTacToe.play(3,2);
+        String actual = ticTacToe.play(3,3  );
+        assertThat(actual).isEqualTo("X wins");
+    }
+
+    @Test
+    public void WinnerWhenDiagonalaBottomTop(){
+        ticTacToe.play(1,3);
+        ticTacToe.play(1,1);
+        ticTacToe.play(2,2);
+        ticTacToe.play(3,2);
+        String actual = ticTacToe.play(3,1  );
+        assertThat(actual).isEqualTo("X wins");
     }
 
 

@@ -8,14 +8,16 @@
       <change afterPath="$PROJECT_DIR$/../ZadaniaZMaila/kolkoIkrzyzyk/src/main/java/pl/kolkoIkrzyzyk/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ZadaniaZMaila/kolkoIkrzyzyk/src/main/java/pl/kolkoIkrzyzyk/Player.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ZadaniaZMaila/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BasicProjects" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicProjects" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSONStudent" beforeDir="false" afterPath="$PROJECT_DIR$/../JSONStudent" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../openweather" beforeDir="false" afterPath="$PROJECT_DIR$/../openweather" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/packtpublishing/tddjava/ch03tictactoe/TicTacToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/packtpublishing/tddjava/ch03tictactoe/TicTacToe.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/com/packtpublishing/tddjava/ch03tictactoe/TicTacToeSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/packtpublishing/tddjava/ch03tictactoe/TicTacToeSpec.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/packtpublishing/tddjava/ch03tictactoe/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/packtpublishing/tddjava/ch03tictactoe/TicTacToe.java" afterDir="false" />
@@ -75,34 +77,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/packtpublishing/tddjava/ch03tictactoe/TicTacToeSpec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+            <state relative-caret-position="-420">
+              <caret line="78" column="24" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/packtpublishing/tddjava/ch03tictactoe/TicTacToe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="34">
+              <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -122,9 +113,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/packtpublishing/tddjava/ch03tictactoe/TicTacToe.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/com/packtpublishing/tddjava/ch03tictactoe/TicTacToeSpec.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/packtpublishing/tddjava/ch03tictactoe/TicTacToe.java" />
       </list>
     </option>
   </component>
@@ -140,6 +131,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,12 +251,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553379853198" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553594228065" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -368,38 +359,45 @@
       <option name="project" value="LOCAL" />
       <updated>1553294340892</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding assertj (instead of junit)">
+      <created>1553379986138</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553379986139</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TicTacToeSpec - 2019.03.23 at 15h 36m 02s.xml">
+    <history-entry file="TicTacToeSpec - 2019.03.25 at 12h 33m 13s.xml">
       <configuration name="TicTacToeSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TicTacToeSpec - 2019.03.23 at 15h 42m 43s.xml">
+    <history-entry file="TicTacToeSpec - 2019.03.25 at 12h 37m 03s.xml">
       <configuration name="TicTacToeSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TicTacToeSpec - 2019.03.23 at 16h 18m 43s.xml">
+    <history-entry file="TicTacToeSpec - 2019.03.25 at 14h 01m 45s.xml">
       <configuration name="TicTacToeSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TicTacToeSpec - 2019.03.23 at 20h 48m 22s.xml">
+    <history-entry file="TicTacToeSpec - 2019.03.25 at 19h 19m 11s.xml">
       <configuration name="TicTacToeSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TicTacToeSpec_OshouldBeLastAndAfterX - 2019.03.23 at 20h 49m 16s.xml">
-      <configuration name="TicTacToeSpec.OshouldBeLastAndAfterX" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TicTacToeSpec - 2019.03.23 at 22h 41m 18s.xml">
+    <history-entry file="TicTacToeSpec - 2019.03.25 at 19h 22m 22s.xml">
       <configuration name="TicTacToeSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TicTacToeSpec_whenXOutsideBoardRuntimeException - 2019.03.23 at 22h 50m 03s.xml">
-      <configuration name="TicTacToeSpec.whenXOutsideBoardRuntimeException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TicTacToeSpec_whenXOutsideBoardRuntimeException - 2019.03.23 at 23h 18m 02s.xml">
-      <configuration name="TicTacToeSpec.whenXOutsideBoardRuntimeException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TicTacToeSpec - 2019.03.23 at 23h 18m 22s.xml">
+    <history-entry file="TicTacToeSpec - 2019.03.25 at 23h 25m 44s.xml">
       <configuration name="TicTacToeSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TicTacToeSpec - 2019.03.23 at 23h 20m 47s.xml">
+    <history-entry file="TicTacToeSpec - 2019.03.25 at 23h 28m 18s.xml">
+      <configuration name="TicTacToeSpec" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TicTacToeSpec - 2019.03.26 at 09h 45m 20s.xml">
+      <configuration name="TicTacToeSpec" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TicTacToeSpec - 2019.03.26 at 10h 00m 06s.xml">
+      <configuration name="TicTacToeSpec" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TicTacToeSpec - 2019.03.26 at 10h 06m 41s.xml">
       <configuration name="TicTacToeSpec" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -407,7 +405,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -437,7 +435,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -446,21 +444,22 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Build" order="10" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.32980332" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -468,7 +467,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="exceptions' tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="exceptions' tests" />
+    <MESSAGE value="adding assertj (instead of junit)" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding assertj (instead of junit)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
@@ -495,22 +495,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/packtpublishing/tddjava/ch03tictactoe/TicTacToe.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/packtpublishing/tddjava/ch03tictactoe/TicTacToeSpec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="-420">
+          <caret line="78" column="24" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/packtpublishing/tddjava/ch03tictactoe/TicTacToeSpec.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/packtpublishing/tddjava/ch03tictactoe/TicTacToe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
         </state>
       </provider>
     </entry>
